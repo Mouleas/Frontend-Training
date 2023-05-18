@@ -1,1 +1,293 @@
 /* Style goes here */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Ubuntu&display=swap');
+/* 
+font-family: 'Roboto Slab', serif;
+font-family: 'Ubuntu', sans-serif; */
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@keyframes on-refresh {
+    from {
+        opacity: 0;
+        filter: grayscale(100%);
+    }
+    to {
+        opacity: 1;
+        filter: grayscale(0%);
+    }
+}
+
+body {
+    background-image: url("../images/bg.jpg");
+    background-repeat: repeat-x;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(28, 28, 28);
+    animation: on-refresh 0.5s linear;
+}
+
+h1,h2 {
+    font-family: 'Roboto Slab', serif;
+}
+h2 {
+    letter-spacing: 2px;
+}
+
+nav {
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+}
+
+table {
+    margin-top: 3%;
+    margin-left: 21%;
+    border: 2px solid whitesmoke;
+}
+thead {
+    font-weight: bolder;
+    color: black;
+    background-color: whitesmoke;
+    padding: 3px;
+}
+
+nav a {
+    color: rgb(28, 28, 28);
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    padding: 3px;
+    background-color: rgb(212, 67, 67);
+    color: whitesmoke;
+}
+
+@keyframes move-arrow {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(8px);
+    }
+}
+
+.head {
+    padding: 10%;
+    padding-bottom: 0;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.head h1 {
+    letter-spacing: 2px;
+    font-size: 4rem;
+}
+.head p {
+    margin-top: 30px;
+    letter-spacing: 1.4px;
+    color: rgb(219, 219, 219);
+    font-size: 20px;
+}
+
+.head strong {
+    padding: 3px;
+    font-size: 20px;
+    background-color: whitesmoke;
+    color: #0081BC;
+}
+.head img {
+    margin-top: 50px;
+    height: 30px;
+    width: 30px;
+    animation: move-arrow 1s  infinite ease-out;
+}
+
+#about {
+    padding: 10%;
+    padding-bottom: 5%;
+    color: whitesmoke;
+    text-align: center;
+}
+
+#about h1 {
+    letter-spacing: 2px;
+    font-size: 3rem;
+}
+#about p {
+    letter-spacing: 1.2px;
+    line-height: 2;
+    margin-left: 25%;
+    text-align: justify;
+    width: 50%;
+    margin-top: 30px;
+    color: rgb(219, 219, 219);
+}
+#about td {
+    padding: 10px;
+}
+
+
+
+#skills {
+    background-color: whitesmoke;
+    color: black;
+}
+
+progress {
+    height: 16px;
+    width: 100%;
+    margin: 0;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    border-radius: 50%;
+    background-color: #d8d8d8;
+}
+
+progress::-webkit-progress-value {
+    background-color: rgb(212, 67, 67);
+    border-radius: 20px;
+}
+
+progress::-moz-progress-bar {
+    background-color: rgb(212, 67, 67);
+    border-radius: 20px;
+}
+
+#skills {
+    padding: 5%;
+    text-align: center;
+}
+
+#skills h1 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+#skills li span {
+    display: inline-block;
+    width: 200px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#skills li {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#skills li {
+    display: inline-block;
+    width: 45%;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+@keyframes carousal {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(100%);
+    }
+}
+.mainframe h1 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+.mainframe {
+    color: whitesmoke;
+    padding: 5%;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    width: 1000px;
+    height: auto;
+    margin-left: 100px;
+}
+.slider {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    animation: carousal 5s linear infinite;
+}
+.slide {
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+}
+.slide img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+#contact {
+    padding-top: 5%;
+    padding-bottom: 2%;
+    text-align: center;
+    background-color: whitesmoke;
+}
+#contact h1 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+i {
+    margin-left: 10px;
+    margin-top: 2%;
+    text-decoration: none;
+    color: black;
+}
+
+.instagram:hover {
+    color: red;
+    cursor: pointer;
+}
+.linkedin:hover {
+    color: #0081BC;
+    cursor: pointer;
+}
+.email:hover {
+    color: goldenrod;
+    cursor: pointer;
+}
+
+#contact button > a {
+    color: black;
+}
+
+#contact button {
+    color: black;
+    margin-top: 20px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#contact button:hover > a{
+    color: white;
+}
+#contact button:hover {
+    background-color: black;
+}
