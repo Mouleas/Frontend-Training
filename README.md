@@ -1,0 +1,6 @@
+![Screenshot (8)](https://github.com/Mouleas/Frontend-Training/assets/74062509/619d197d-f2c9-410e-a922-fb601795c037)
+![Screenshot (9)](https://github.com/Mouleas/Frontend-Training/assets/74062509/456579c5-0d65-42a9-a27f-b85c54eec49b)
+![Screenshot (10)](https://github.com/Mouleas/Frontend-Training/assets/74062509/ac380718-737e-4f3b-afb4-5450e258de34)
+![Screenshot (11)](https://github.com/Mouleas/Frontend-Training/assets/74062509/9252eaa2-da45-4ed2-ac66-3244e78518c2)
+![Screenshot (12)](https://github.com/Mouleas/Frontend-Training/assets/74062509/b49e27a3-0006-4ff2-b064-484a2b9597d8)
+![Screenshot (13)](https://github.com/Mouleas/Frontend-Training/assets/74062509/12009eff-11d4-4391-a433-1efe399caa78)
